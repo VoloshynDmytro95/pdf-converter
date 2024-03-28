@@ -24,7 +24,7 @@ const PdfForm: FC<{ onSubmit: (text: string) => Promise<void> }> = ({ onSubmit }
                     placeholder="convert"
                     className="block mx-auto mb-4 px-4 mt-5 py-2 border rounded"
                 />
-                <button onClick={handleSubmit} className="block mx-auto px-4 py-2 bg-blue-500 text-white rounded">Generate PDF</button>
+                <button onClick={handleSubmit} className="block mx-auto px-4 py-2 bg-blue-500 text-white rounded">Convert to PDF</button>
             </div>
         </div>
 
