@@ -1,9 +1,11 @@
-import React from 'react';
+import { FC } from 'react';
+import PdfConverter from './ui/pdf-converter';
+import './index.css';
 
-const App: React.FC = () => {
+const App: FC = () => {
   return (
     <div className="App">
-      Pure Project
+      <PdfConverter />
     </div>
   );
 };
